@@ -12,6 +12,8 @@
     grid-template-rows: repeat(15, 1fr);
 }
 
+/* demo painting colours*/
+
 .cream{
     background-color: #FFF9E7;
 }
@@ -37,3 +39,5 @@
 .border-bottom{
     border-bottom: 20px solid #4B4444;
 }
+
+/*for border*/
