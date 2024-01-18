@@ -6,6 +6,8 @@
     width: 600px;
     height:600px;
     border:1px solid black;
+    
+
     /*for test*/
 
     grid-template-columns: repeat(15, 1fr);
@@ -40,4 +42,61 @@
     border-bottom: 20px solid #4B4444;
 }
 
-/*for border*/
+/*second painting*/
+
+.black{
+    background-color: #282D3A;
+
+}
+
+.white{
+
+    background-color: #DFF1D7;
+}
+
+.regBlue{
+    background-color: #0783E3;
+}
+
+.green{
+    background-color: #239968;
+}
+
+.pink{
+    background-color: #FDD8D4;
+}
+
+.navyBlue{
+    background-color: #1147C9;
+}
+
+.redTwo{
+    background-color: #F14342;
+}
+
+.orange{
+    background-color: #FE7240;
+}
+
+.darkRed{
+    background-color: #CF363E;
+}
+
+/*for second painting border*/
+
+.border-top-blue{
+    border-top: 20px solid #0783E3;
+
+}
+
+.border-top-yellow{
+    border-top: 20px solid #F7DE00;
+}
+
+.border-top-white{
+    border-top: 20px solid #DFF1D7;
+}
+
+.border-bottom-red{
+    border-bottom: 20px solid #F14342;
+}
