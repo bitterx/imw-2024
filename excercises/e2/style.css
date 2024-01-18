@@ -100,3 +100,19 @@
 .border-bottom-red{
     border-bottom: 20px solid #F14342;
 }
+
+/*for third painting */
+
+.skyBlue{
+    background-color: #699CC5;
+}
+
+.wineRed{
+    background-color: #890A23;
+}
+
+/*for third painting border*/
+
+.small-border-bottom{
+    border-bottom: 10px solid #4B4444;
+}
