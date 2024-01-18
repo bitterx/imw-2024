@@ -116,3 +116,8 @@
 .small-border-bottom{
     border-bottom: 10px solid #4B4444;
 }
+
+/* text decor */
+a:link{
+    text-decoration: none;
+}
