@@ -1,0 +1,413 @@
+h1{
+    color: rgb(58, 56, 96);
+    text-align: center;
+    font-family: "Fugaz One", sans-serif;
+    font-size: 40px;
+ 
+}
+
+p{
+    text-align: center;
+    font-family: "Space Mono", monospace;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(185, 190, 238);
+    background-image: linear-gradient(rgb(171, 171, 246) , rgb(236, 192, 130));
+}
+
+.background2{
+    height: 100vh;
+    background-color: rgb(185, 190, 238);
+    background-image: linear-gradient(rgb(89, 89, 159) , rgb(159, 179, 231));
+}
+
+.background3{
+    height: 100vh;
+    background-color: rgb(185, 190, 238);
+    background-image: linear-gradient(rgb(230, 202, 142) , rgb(162, 138, 242));
+}
+
+
+/* Used Chat GPT to create button code */
+
+
+
+.button-next{
+display:inline-block;
+padding: 10px 20px;
+background-color: rgb(253, 196, 255);
+color: rgb(7, 7, 7);
+text-align: center;
+text-decoration: none;
+font-size: 16px;
+border: 5px;
+border-color: black;
+border-radius: 50%;
+
+position: fixed;
+bottom: 10px;
+right: 10px;
+
+font-family: "Space Mono", monospace;
+
+}
+
+.button-back{
+    display:inline-block;
+    padding: 10px 20px;
+    background-color: rgb(253, 196, 255);
+    color: rgb(76, 33, 33);
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: 5px;
+    border-color: black;
+    border-radius: 50%;
+    
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+
+    font-family: "Space Mono", monospace;
+
+    }
+
+/* Used Chat GPT to create sun */
+
+.sun{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(254, 187, 63);
+    background-image: linear-gradient(rgb(206, 143, 130) ,rgb(254, 187, 63));
+
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    top:40%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.container{
+    position: relative;
+}
+
+.depth-1{
+    position: relative;
+ }
+
+.pillow{
+    position: absolute;
+    width:200px;
+    height: 300px;
+    background-color: rgb(215, 237, 237);
+    border-radius: 30%;
+    /* border: 5px solid rgb(48, 46, 56) */
+
+}
+
+
+.bed{
+    position: absolute;
+    width:700px;
+    height:300px;
+    bottom: 20px;
+    background-image: linear-gradient(rgb(246, 171, 182) , rgb(225, 137, 203));
+   border-radius: 10%;
+   /* border: 10px solid rgb(151, 90, 61) */
+  
+}
+
+.door{
+position: absolute;
+    width:300px;
+    height: 500px;
+   bottom: 10px;
+    background-image: linear-gradient(rgb(167, 118, 118) , rgb(218, 144, 133));
+   border-radius: 5%;
+   right:40px;
+ 
+}
+
+.doorKnob{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(254, 187, 63);
+    border-radius: 50%;
+    right:50px;
+    bottom:30%;
+}
+
+
+.floor{
+ position: absolute;
+    width:100vw;
+    height: 50vh;
+    
+    background-color: rgb(158, 186, 208);
+ 
+    background-image: linear-gradient(rgb(167, 181, 229) , rgb(125, 100, 87));
+
+
+  
+   top:50%;
+   left:50%;
+   transform: translate(-50%, -50%);
+   
+}
+
+/* person shapes used ref for shapes https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_shapes_trapezoid*/
+.head{
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(rgb(171, 171, 246) , rgb(238, 208, 152));
+
+    background-color: rgb(238, 208, 152);
+    border-radius: 50%;
+   left:45%;
+    top: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.body {
+    position: absolute;
+	border-bottom: 300px solid rgb(210, 122, 168);
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	height: 20px;
+	width: 100px;
+    
+    left:45%;
+    top: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.ponyTail {
+    position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 30px solid transparent;
+	border-left: 40px solid rgb(188, 112, 209);
+	border-bottom: 30px solid transparent;
+
+    left:50%;
+    top: 50%;
+}
+
+
+
+
+
+
+.mirror{
+    position:absolute;
+    width:400px;
+    height:550px;
+    bottom: 20px;
+    background-color: rgb(138, 209, 231);
+ 
+    background-image: linear-gradient(rgb(171, 246, 224) , rgb(162, 210, 235));
+
+   border-radius: 10%;
+   border: 10px solid rgb(177, 112, 82);
+   top:70%;
+   left:50%; 
+   transform: translate(-50%, -50%);
+    bottom: 10px; 
+
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+
+/* star refs taken from this link https://www.coding-dude.com/wp/css/css-star/ */
+.four-pointed-star{
+    position:relative;
+    margin:1em auto;
+    width:1em;
+    font-size:12em;
+  }
+  
+  .four-pointed-star:before{
+    content:"";
+    position:absolute;
+    background:rgb(242, 207, 68);
+    width:1em;
+    height:1.15em;
+    transform:rotate(-45deg) skewX(22.5deg) skewY(22.5deg);
+  }
+  
+  .four-pointed-star:after{
+    content:"";
+    position:absolute;
+    background:rgb(242, 207, 68);
+    width:1em;
+    height:1.15em;
+    transform:rotate(45deg) skewX(22.5deg) skewY(22.5deg);
+  }
+
+
+
+  
+
+  /* line ref */
+  .line1 {
+    position:absolute;
+    left:50%;
+    top: 40%;
+
+    border-left: 6px solid rgb(18, 20, 97);
+    height: 50px;
+  }
+  .line2 {
+    position:absolute;
+    left:51%;
+    top: 42%;
+
+    border-left: 6px solid rgb(18, 20, 97);
+    height: 50px;
+  }
+  
+  /* wand */
+  .line3 {
+    position:absolute;
+    left:20%;
+    top: 40%;
+
+    border-left: 6px solid rgb(31, 31, 52);
+    height: 100px;
+  }
+
+  .line4 {
+    position:absolute;
+    left:22%;
+    top: 40%;
+
+    border-left: 6px solid rgb(255, 255, 255);
+    height: 40px;
+  }
+
+  /* ref from this site https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate */
+  .rotated {
+    transform: rotate(45deg);
+  }
+
+  /* last person */
+  .head2{
+    position:absolute;
+    width: 400px;
+    height: 400px;
+    background-image: linear-gradient(rgb(238, 208, 152) , rgb(238, 152, 152));
+
+    background-color: rgb(238, 208, 152);
+    border-radius: 50%;
+   left:40%;
+
+   
+    bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.bangs {
+    position: absolute;
+    border-bottom: 100px solid rgb(185, 117, 219);
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 300px;
+
+    left:40%;
+
+   
+    bottom: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+
+.backhair{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-image: linear-gradient(rgb(178, 80, 187) , rgb(238, 152, 152));
+
+    background-color: rgb(178, 80, 187);
+
+    left:40%;
+
+   
+    bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+  
+.eye{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(75, 65, 65);
+    border-radius: 50%; 
+}
+
+.position1{
+    left:700px;
+
+   
+    bottom: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.position2{
+    right:600px;
+
+   
+    bottom: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.body2 {
+    position: absolute;
+	border-bottom: 350px solid rgb(140, 162, 217);
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	height: 20px;
+	width: 300px;
+    
+    left:40%;
+    top: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.smile{
+   position: absolute;
+   bottom: 300px;
+   left:50%;
+        width: 0;
+        height: 0;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-top: 50px solid rgb(226, 103, 103);
+    }
