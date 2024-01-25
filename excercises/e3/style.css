@@ -1,0 +1,102 @@
+h2{
+    margin: 150px;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* animations */
+@keyframes slide-right{
+    to{
+        transform: translateX(-200px);
+    }
+    from{
+        transform: translateX(200px);
+
+    }
+  }
+  
+
+  @keyframes slide-down{
+    to{
+        transform: translateY(2000px);
+    }
+    from{
+        transform: translateY(0px);
+
+    }
+ 
+  }
+
+  /* referenced from https://developer.mozilla.org/en-US/docs/Web/CSS/transform */
+  @keyframes spin{
+    to{
+        transform: rotate(6turn);
+    }
+    from{
+        transform: rotate(1turn);
+
+    }
+ 
+  }
+
+
+  /* for changing individual letters */
+  span{
+    display: block;
+}
+
+
+
+/* adobe font*/
+.litho2{
+    font-family: "club-lithographer", sans-serif, 'Gill Sans';
+    font-weight: 400;
+    font-style: italic;
+    
+    color: rgb(28, 41, 139);
+    
+    &:hover{
+        animation: spin;
+        animation-duration: 2s;
+    }
+    
+    } 
+
+
+
+
+
+/* google font */
+.borel-regular {
+    font-family: "Borel", "sans-serif", Verdana;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(225, 104, 88);
+
+    &:hover{
+        animation: slide-right;
+        animation-duration: 2s;
+    }
+  }
+
+
+  /* self-hosted */
+  @font-face {
+    font-family: 'Bespoke', monospace, Verdana;
+    src: url('font/Bespoke-TlzK1HLdNj.eot');
+    src: url('font/Bespoke-TlzK1HLdNj.eot?#iefix') format('embedded-opentype'),
+       url('font/Bespoke-TlzK1HLdNj.woff') format('woff'),
+       url('font/Bespoke-TlzK1HLdNj.ttf') format('truetype'),
+       url('font/Bespoke-TlzK1HLdNj.svg#Bespoke-TlzK1HLdNj') format('svg');
+  }
+  
+  .self-hosted{
+    font-family: "Bespoke", monospace, Verdana;
+    color: rgb(119, 74, 74);
+    &:hover{
+        animation: slide-down;
+        animation-duration: 3s;
+       
+    }
+} 
+ 
