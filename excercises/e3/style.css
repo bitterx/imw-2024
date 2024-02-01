@@ -82,7 +82,7 @@ h2{
 
   /* self-hosted */
   @font-face {
-    font-family: "Bespoke", 'verdana', monospace;
+    font-family: 'Bespoke', 'verdana', monospace;
     src: url('font/Bespoke-TlzK1HLdNj.eot');
     src: url('font/Bespoke-TlzK1HLdNj.eot?#iefix') format('embedded-opentype'),
        url('font/Bespoke-TlzK1HLdNj.woff') format('woff'),
@@ -91,7 +91,7 @@ h2{
   }
   
   .self-hosted{
-    font-family: "Bespoke", ‘verdana’, monospace;
+    font-family: 'Bespoke', ‘verdana’, monospace;
     color: rgb(119, 74, 74);
     &:hover{
         animation: slide-down;

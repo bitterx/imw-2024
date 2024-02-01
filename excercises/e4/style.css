@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* basically flex container */
+header {
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+
+    /* move links to the right */
+    justify-content: space-between;
+
+
+    /* centering our title and links */
+    align-items: center;
+
+    /* padding order: top right bottom left */
+    padding: 30px 36px;
+}
+
+.site-name {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.site-name-two {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+
+ul {
+    /* to remove bullet points */
+    list-style-type: none;
+
+    li {
+        font-size: 18px;
+
+        /* display in one line */
+        display: inline-block;
+
+        /* spacing out the three links apart */
+
+        &:first-child {
+            margin-right: 44px;
+        }
+
+        &:nth-child(2) {
+            margin-right: 44px;
+        }
+    }
+
+
+}
+
+.hero-section {
+    height: 100vh;
+    display: flex;
+    text-align: center;
+
+
+    /* how to center horizontally and vertically */
+    justify-content: center;
+    align-items: center;
+
+    /* additional text can be added under */
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 120px;
+    line-height: 106px;
+    margin-bottom: 72px;
+}
+
+h3 {
+    font-size: 22px;
+    line-height: 36px;
+    margin-bottom: 12px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 120px;
+}
+
+.call-to-action {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+
+.call-to-action-two {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 36px;
+
+
+}
+
+
+/* making 3 column grid */
+.info-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    height: 320px;
+    border: 1px solid black;
+
+    display: flex;
+    padding: 30px;
+    text-align: left;
+
+    align-items: center;
+
+}
+
+.info-section-item {
+
+    padding: 36px;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+
+    /* move links to the right */
+    justify-content: space-between;
+
+
+    /* centering our title and links */
+    align-items: center;
+
+    /* padding order: top right bottom left */
+    padding: 30px 56px;
+    padding-bottom: 20px;
+}
+
+.socials {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-links {
+    margin-left: 10px;
+    display: block;
+    text-decoration: none;
+    list-style-type: none;
+
+    color: black;
+
+
+
+    align-items: right;
+}
