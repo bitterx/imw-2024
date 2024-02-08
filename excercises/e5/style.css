@@ -1,0 +1,191 @@
+  /* referenced from https://developer.mozilla.org/en-US/docs/Web/CSS/transform */
+  @keyframes spin {
+      to {
+          transform: rotate(6turn);
+          font-size: 20vw;
+
+      }
+
+      from {
+          transform: rotate(1turn);
+          font-size: 10vw;
+      }
+
+  }
+
+  /* referenced Alice Yin's code */
+
+  @keyframes rotation {
+      from {
+          transform: rotate(0deg);
+      }
+
+      to {
+          transform: rotate(359deg);
+      }
+  }
+
+  /* referenced Alice Yin's code */
+  .spin {
+      animation: rotation 2s infinite linear;
+  }
+
+  section {
+
+      height: 100vh;
+      display: flex;
+      text-align: center;
+
+
+      /* how to center horizontally and vertically */
+      justify-content: center;
+      align-items: center;
+
+      /* additional text can be added under */
+      flex-direction: row;
+  }
+
+  body {
+      background: rgb(239, 250, 188);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+  }
+
+  /* make party spin */
+  h1 {
+
+      font-size: 8em;
+      color: rgb(245, 142, 173);
+
+      &:hover {
+          animation: spin;
+          animation-duration: 2s;
+
+
+      }
+
+  }
+
+  /* make time turn italics when hovered over */
+  h2 {
+
+      font-size: 4em;
+      color: rgb(212, 153, 111);
+
+      &:hover {
+          font-family: "jeanne-moderno-ultra", serif;
+          font-weight: 800;
+          font-style: italic;
+      }
+  }
+
+  span {
+      font-size: 5em;
+      color: rgb(245, 142, 173);
+      margin: 0.5em;
+
+
+
+  }
+
+  /* making classes for time and party */
+  .time {
+      color: rgb(245, 142, 173);
+
+  }
+
+  .party {
+      font-family: "jeanne-moderno-ultra", serif;
+      font-weight: 800;
+      font-style: normal;
+  }
+
+
+  /* changing responsive screensize */
+  @media screen and (max-width: 768px) {
+
+      body {
+          background: rgb(117, 124, 213);
+
+      }
+
+      .time {
+          font-family: "jeanne-moderno", serif;
+          font-weight: 700;
+          font-style: normal;
+          color: rgb(241, 239, 144);
+      }
+
+      .party {
+          font-family: "jeanne-moderno", serif;
+          font-weight: 700;
+          font-style: normal;
+          color: rgb(241, 239, 144);
+      }
+
+      .spin {
+          font-family: "jeanne-moderno", serif;
+          font-weight: 700;
+          font-style: normal;
+          color: rgb(241, 239, 144);
+          color: rgb(241, 239, 144);
+      }
+
+  }
+
+
+
+  @media (max-height: 500px) {
+
+      body {
+          background: rgb(168, 236, 181);
+          font-family: "jeanne-moderno", serif;
+
+      }
+
+      .time {
+          font-family: "jeanne-moderno-ultra", serif;
+          font-weight: 800;
+          font-style: normal;
+          color: rgb(55, 78, 207);
+      }
+
+      .party {
+          font-family: "jeanne-moderno", serif;
+          font-weight: 400;
+          font-style: normal;
+          color: rgb(55, 78, 207);
+      }
+
+      .spin {
+          font-family: "jeanne-moderno-ultra", serif;
+          font-weight: 800;
+          font-style: normal;
+          color: rgb(55, 78, 207);
+          color: rgb(55, 78, 207);
+      }
+  }
+
+
+
+
+  /* fonts */
+  .jeanne {
+      font-family: "jeanne-moderno", serif;
+      font-weight: 400;
+      font-style: normal;
+  }
+
+  .jeanneBold {
+      font-family: "jeanne-moderno", serif;
+      font-weight: 700;
+      font-style: normal;
+  }
+
+  .jeanneUltra {
+      font-family: "jeanne-moderno-ultra", serif;
+      font-weight: 800;
+      font-style: normal;
+  }
