@@ -43,11 +43,8 @@
 }
 
 .content {
-    border: 2px solid #55403B;
-    border-left: 0px;
-    border-right: 0px;
     white-space: nowrap;
-    animation: scroll-left 20s linear infinite;
+    animation: scroll-left 10s linear infinite;
     /* Adjust the duration and timing function as needed */
 }
 
