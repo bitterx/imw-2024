@@ -95,11 +95,6 @@ a {
     
 }    
 
-.biggerUsers{
-font-size: 30px;
-line-height: 50px;
-}
-
 a:visited {
     text-decoration: none;
     color: #7B987D;
@@ -165,11 +160,11 @@ h1 {
     font-family: "the-seasons", sans-serif;
 
     font-size: 64px;
-
+text-align: left;
 
     line-height: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
+    /* padding-left: 30px;
+    padding-right: 30px; */
 
     &:hover {
         animation-duration: 0.5s;
@@ -179,7 +174,7 @@ h1 {
 }
 
 h2 {
-    color:  #F3ECDD;
+    color: #55403B;
     font-size: 30px;
  
     
@@ -188,10 +183,6 @@ h2 {
 
 .pinkBanner {
     background-color: #F6818A;
-}
-
-.greenBanner {
-    background-color: #7B987D;
 }
 
 .bannerColour{
@@ -209,8 +200,9 @@ h2 {
 
 h3 {
     color: #55403B;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: left;
 
 
     /* font-family: "Preahvihear", sans-serif; */
@@ -218,7 +210,16 @@ h3 {
 
     font-weight: 400;
     font-style: normal;
-    text-align: center;
+}
+
+.bio{
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 40vw;
+    /* margin-left: 20px;
+    margin-right: 20px; */
 }
 
 .small-bottom {
@@ -335,13 +336,13 @@ p {
 }
 
 .scroll-left {
-    background-color: #7B987D;
+    background-color: #F6818A;
     width: 100%;
     overflow: hidden;
 }
 
 .content {
-    background-color: #7B987D;
+    background-color: #F6818A;
     white-space: nowrap;
     animation: scroll-left 20s linear infinite;
     /* Adjust the duration and timing function as needed */
