@@ -16,8 +16,14 @@ span {
 
 
 .starColour{
-    color: #6B8B5D;
+    color: #7B987D;
 }
+
+.starColourTwo{
+    color: #F3ECDD;
+}
+
+
 /* basically flex container */
 header {
 
@@ -72,14 +78,22 @@ ul {
         &:nth-child(2) {
             margin-right: 44px;
         }
+
+        &:hover {
+            animation-name: bounce;
+            animation-duration: 1.5s;
+        }
     }
 
 
 }
 
 a {
+    color: #55403B;
     text-decoration: none;
-}
+
+    
+}    
 
 a:visited {
     text-decoration: none;
@@ -153,7 +167,7 @@ h1 {
     padding-right: 30px;
 
     &:hover {
-        animation-duration: 2s;
+        animation-duration: 0.5s;
         color: rgb(104, 152, 184);
 
     }
@@ -178,9 +192,14 @@ h2 {
 
 .date {
     margin-bottom: 40px;
+       &:hover {
+            animation-name: bounce;
+            animation-duration: 1.5s;
+        }
 }
 
 h3 {
+    color: #55403B;
     font-size: 24px;
     line-height: 36px;
 
@@ -316,4 +335,20 @@ p {
     white-space: nowrap;
     animation: scroll-left 20s linear infinite;
     /* Adjust the duration and timing function as needed */
+}
+
+/* referenced jiordan's code */
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+  
+    50% {
+        transform: translateY(-10px);
+    }
+ 
+    100% {
+        transform: translateY(0);
+    }
 }
