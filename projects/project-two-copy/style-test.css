@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+/* referenced Alice Yin's code */
+.spin {
+    animation: rotation 2s infinite linear;
+}
+
+.hero-section {
+    height: 60vh;
+    display: flex;
+    text-align: center;
+    padding: 36px;
+
+
+    /* how to center horizontally and vertically */
+    justify-content: center;
+    align-items: center;
+
+    /* additional text can be added under */
+    flex-direction: row;
+
+    /* display: inline-block; */
+
+
+}
+
+.scroll-left {
+    width: 100%;
+    overflow: hidden;
+}
+
+.content {
+    border: 2px solid #55403B;
+    border-left: 0px;
+    border-right: 0px;
+    white-space: nowrap;
+    animation: scroll-left 20s linear infinite;
+    /* Adjust the duration and timing function as needed */
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}

@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* basically flex container */
+header {
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+
+    border-left: 0px;
+    border-right: 0px;
+
+
+    /* move links to the center*/
+    justify-content: center;
+
+
+    /* centering our title and links */
+    align-items: center;
+
+    /* padding order: top right bottom left */
+    padding: 30px 36px;
+
+    margin-top: 20px;
+
+
+
+}
+
+
+
+
+ul {
+
+    /* to remove bullet points */
+    display: block;
+    text-decoration: none;
+    list-style-type: none;
+
+
+    /* how to center horizontally and vertically */
+    justify-content: center;
+    align-items: center;
+
+    li {
+        font-size: 24px;
+
+
+        /* display in one line */
+        display: inline-block;
+
+        /* spacing out the three links apart */
+
+        &:first-child {
+            margin-right: 44px;
+        }
+
+        &:nth-child(2) {
+            margin-right: 44px;
+        }
+    }
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.tags {
+
+    /* to remove bullet points */
+    display: block;
+    text-decoration: none;
+    list-style-type: none;
+
+
+    /* how to center horizontally and vertically */
+    justify-content: center;
+    align-items: center;
+
+
+    li {
+        font-size: 18px;
+
+        &:first-child {
+            margin-right: 0px;
+        }
+
+        &:nth-child(2) {
+            margin-right: 0px;
+        }
+
+
+    }
+
+
+}
+
+.place-description {
+    display: flex;
+    text-align: left;
+    margin-left: 67px;
+
+    /* how to center horizontally and vertically */
+    justify-content: center;
+    align-items: right;
+
+    /* additional text can be added under */
+    flex-direction: column;
+
+    margin-top: 30px;
+}
+
+.hero-section {
+    height: 70vh;
+    display: flex;
+    text-align: center;
+    padding: 36px;
+
+
+    /* how to center horizontally and vertically */
+    justify-content: center;
+    align-items: center;
+
+    /* additional text can be added under */
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 64px;
+    line-height: 70px;
+    margin-bottom: 72px;
+}
+
+h2 {
+    font-size: px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+h3 {
+    font-size: 22px;
+    line-height: 36px;
+    margin-bottom: 12px;
+
+    font-family: "Preahvihear", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 120px;
+}
+
+.call-to-action {
+    font-size: 12px;
+
+    text-transform: uppercase;
+
+}
+
+
+
+
+/* making 3 column grid */
+.info-section {
+    height: 200px;
+    display: flex;
+    text-align: center;
+
+
+    /* how to center horizontally and vertically */
+    justify-content: center;
+    align-items: center;
+
+    /* additional text can be added under */
+    flex-direction: column;
+
+    margin-bottom: 32px;
+
+}
+
+
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+
+    /* move links to the right */
+    justify-content: space-between;
+
+
+    /* centering our title and links */
+    align-items: center;
+
+    /* padding order: top right bottom left */
+    padding: 30px 56px;
+    padding-bottom: 20px;
+}
+
+.socials {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-links {
+    margin-left: 10px;
+    display: block;
+    text-decoration: none;
+    list-style-type: none;
+
+    color: black;
+
+
+
+    align-items: right;
+}
+
+/* fonts */
+
+/* adobe font */
+.seasons {
+    font-family: the-seasons, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.seasonsBold {
+    font-family: "the-seasons", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* google font */
+.preahvihearReg {
+    font-family: "Preahvihear", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
