@@ -84,7 +84,7 @@ span {
 }
 
 .gabiTitleTwo {
-    color: E06667;
+    color: #E06667;
 }
 
 .gabiStar {
@@ -97,6 +97,27 @@ span {
 
 .gabiBanner {
     background-color: #55403B;
+}
+
+/* jessica colours */
+.berryTitle {
+    color: #30525C;
+}
+
+.berryTitleTwo {
+    color: #BB3438;
+}
+
+.berryStar {
+    color: #BB3438;
+}
+
+.berryStarTwo {
+    color: #30525C;
+}
+
+.berryBanner {
+    background-color: #30525C;
 }
 
 
