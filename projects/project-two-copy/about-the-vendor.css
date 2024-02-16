@@ -189,6 +189,12 @@ a {
     color: #55403B;
     text-decoration: none;
 
+    &:hover {
+        animation-duration: 0.5s;
+        color: #E06667;
+
+    }
+
 
 
 
