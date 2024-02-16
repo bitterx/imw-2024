@@ -16,11 +16,15 @@ span {
 
 
 .starColour {
-    color: #7B987D;
+    color: #b8eeb8;
 }
 
 .starColourTwo {
     color: #F3ECDD;
+}
+
+.starColourThree {
+    color: #7B987D;
 }
 
 
