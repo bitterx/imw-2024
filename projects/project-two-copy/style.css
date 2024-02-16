@@ -97,7 +97,7 @@ a {
 
 a:visited {
     text-decoration: none;
-    color: #7B987D;
+    color: #55403B;
 }
 
 
@@ -168,7 +168,7 @@ h1 {
 
     &:hover {
         animation-duration: 0.5s;
-        color: rgb(104, 152, 184);
+        color: #7B987D;
 
     }
 }

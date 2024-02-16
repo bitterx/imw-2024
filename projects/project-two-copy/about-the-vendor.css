@@ -24,6 +24,39 @@ span {
 }
 
 
+
+
+/* bitter colour pallette */
+
+.bitterTitle{
+   color: #405472;
+}
+
+.bitterStar{
+    color: #E06667;
+}
+
+.bitterBanner{
+background-color: #405472;
+}
+
+
+.bitter-scroll-left {
+    background-color: #405472;
+    width: 100%;
+    overflow: hidden;
+}
+
+.bitter-content {
+    background-color: #405472;
+    white-space: nowrap;
+    animation: scroll-left 20s linear infinite;
+    /* Adjust the duration and timing function as needed */
+}
+
+
+
+
 /* basically flex container */
 header {
 
@@ -89,7 +122,7 @@ ul {
 }
 
 a {
-    color: #7B987D;
+    color: #55403B;
     text-decoration: none;
 
     
@@ -97,7 +130,7 @@ a {
 
 a:visited {
     text-decoration: none;
-    color: #7B987D;
+    color:#55403B;
 }
 
 
