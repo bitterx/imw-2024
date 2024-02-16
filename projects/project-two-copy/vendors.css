@@ -15,11 +15,11 @@ span {
 }
 
 
-.starColour{
+.starColour {
     color: #7B987D;
 }
 
-.starColourTwo{
+.starColourTwo {
     color: #F3ECDD;
 }
 
@@ -92,17 +92,22 @@ a {
     color: #7B987D;
     text-decoration: none;
 
-    
-}    
 
-.biggerUsers{
-font-size: 30px;
-line-height: 50px;
+}
+
+.biggerUsers {
+    font-size: 30px;
+    line-height: 50px;
+
+    &:hover {
+        animation-name: bounce;
+        animation-duration: 1.5s;
+    }
 }
 
 a:visited {
     text-decoration: none;
-    color: #7B987D;
+    color: #55403B;
 }
 
 
@@ -179,10 +184,10 @@ h1 {
 }
 
 h2 {
-    color:  #F3ECDD;
+    color: #F3ECDD;
     font-size: 30px;
- 
-    
+
+
 
 }
 
@@ -194,17 +199,19 @@ h2 {
     background-color: #7B987D;
 }
 
-.bannerColour{
-    color: #F3ECDD;;
+.bannerColour {
+    color: #F3ECDD;
+    ;
 
 }
 
 .date {
     margin-bottom: 40px;
-       &:hover {
-            animation-name: bounce;
-            animation-duration: 1.5s;
-        }
+
+    &:hover {
+        animation-name: bounce;
+        animation-duration: 1.5s;
+    }
 }
 
 h3 {
@@ -353,11 +360,11 @@ p {
     0% {
         transform: translateY(0);
     }
-  
+
     50% {
         transform: translateY(-10px);
     }
- 
+
     100% {
         transform: translateY(0);
     }

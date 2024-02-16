@@ -77,6 +77,28 @@ span {
 }
 
 
+/* gabi colours */
+
+.gabiTitle {
+    color: #55403B;
+}
+
+.gabiTitleTwo {
+    color: E06667;
+}
+
+.gabiStar {
+    color: #E06667;
+}
+
+.gabiStarTwo {
+    color: #E06667;
+}
+
+.gabiBanner {
+    background-color: #55403B;
+}
+
 
 /* basically flex container */
 header {
@@ -145,6 +167,8 @@ ul {
 a {
     color: #55403B;
     text-decoration: none;
+
+
 
 
 }
@@ -266,6 +290,8 @@ h3 {
 
     font-weight: 400;
     font-style: normal;
+
+
 }
 
 .bio {
@@ -405,6 +431,13 @@ p {
 }
 
 /* referenced jiordan's code */
+
+.bounce {
+    &:hover {
+        animation-name: bounce;
+        animation-duration: 1.5s;
+    }
+}
 
 @keyframes bounce {
     0% {
