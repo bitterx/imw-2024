@@ -15,29 +15,29 @@ span {
 }
 
 
-.starColour{
+.starColour {
     color: #7B987D;
 }
 
-.starColourTwo{
+.starColourTwo {
     color: #F3ECDD;
 }
 
 
 
 
-/* bitter colour pallette */
+/* bitter colours */
 
-.bitterTitle{
-   color: #405472;
+.bitterTitle {
+    color: #405472;
 }
 
-.bitterStar{
+.bitterStar {
     color: #E06667;
 }
 
-.bitterBanner{
-background-color: #405472;
+.bitterBanner {
+    background-color: #405472;
 }
 
 
@@ -54,6 +54,27 @@ background-color: #405472;
     /* Adjust the duration and timing function as needed */
 }
 
+/* geann colours */
+
+.gemTitle {
+    color: #0095BD;
+}
+
+.gemTitleTwo {
+    color: #8BBB9B;
+}
+
+.gemStar {
+    color: #0095BD;
+}
+
+.gemStarTwo {
+    color: #F3DD94;
+}
+
+.gemBanner {
+    background-color: #8BBB9B;
+}
 
 
 
@@ -125,12 +146,12 @@ a {
     color: #55403B;
     text-decoration: none;
 
-    
-}    
+
+}
 
 a:visited {
     text-decoration: none;
-    color:#55403B;
+    color: #55403B;
 }
 
 
@@ -193,7 +214,7 @@ h1 {
     font-family: "the-seasons", sans-serif;
 
     font-size: 64px;
-text-align: left;
+    text-align: left;
 
     line-height: 30px;
     /* padding-left: 30px;
@@ -209,8 +230,8 @@ text-align: left;
 h2 {
     color: #55403B;
     font-size: 30px;
- 
-    
+
+
 
 }
 
@@ -218,17 +239,19 @@ h2 {
     background-color: #F6818A;
 }
 
-.bannerColour{
-    color: #F3ECDD;;
+.bannerColour {
+    color: #F3ECDD;
+    ;
 
 }
 
 .date {
     margin-bottom: 40px;
-       &:hover {
-            animation-name: bounce;
-            animation-duration: 1.5s;
-        }
+
+    &:hover {
+        animation-name: bounce;
+        animation-duration: 1.5s;
+    }
 }
 
 h3 {
@@ -245,8 +268,8 @@ h3 {
     font-style: normal;
 }
 
-.bio{
-    display:flex;
+.bio {
+    display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
@@ -387,11 +410,11 @@ p {
     0% {
         transform: translateY(0);
     }
-  
+
     50% {
         transform: translateY(-10px);
     }
- 
+
     100% {
         transform: translateY(0);
     }
