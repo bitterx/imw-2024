@@ -15,6 +15,111 @@ span {
 }
 
 
+.starColour {
+    color: #7B987D;
+}
+
+.starColourTwo {
+    color: #F3ECDD;
+}
+
+
+
+
+/* bitter colours */
+
+.bitterTitle {
+    color: #405472;
+}
+
+.bitterStar {
+    color: #E06667;
+}
+
+.bitterBanner {
+    background-color: #405472;
+}
+
+
+.bitter-scroll-left {
+    background-color: #405472;
+    width: 100%;
+    overflow: hidden;
+}
+
+.bitter-content {
+    background-color: #405472;
+    white-space: nowrap;
+    animation: scroll-left 20s linear infinite;
+    /* Adjust the duration and timing function as needed */
+}
+
+/* geann colours */
+
+.gemTitle {
+    color: #0095BD;
+}
+
+.gemTitleTwo {
+    color: #72aa84;
+}
+
+.gemStar {
+    color: #72aa84;
+}
+
+.gemStarTwo {
+    color: #0095BD;
+}
+
+.gemBanner {
+    background-color: #8BBB9B;
+}
+
+
+/* gabi colours */
+
+.gabiTitle {
+    color: #55403B;
+}
+
+.gabiTitleTwo {
+    color: #E06667;
+}
+
+.gabiStar {
+    color: #E06667;
+}
+
+.gabiStarTwo {
+    color: #E06667;
+}
+
+.gabiBanner {
+    background-color: #55403B;
+}
+
+/* jessica colours */
+.berryTitle {
+    color: #30525C;
+}
+
+.berryTitleTwo {
+    color: #BB3438;
+}
+
+.berryStar {
+    color: #BB3438;
+}
+
+.berryStarTwo {
+    color: #30525C;
+}
+
+.berryBanner {
+    background-color: #30525C;
+}
+
 
 /* basically flex container */
 header {
@@ -55,7 +160,7 @@ ul {
     align-items: center;
 
     li {
-        font-size: 18px;
+        font-size: 24px;
 
 
         /* display in one line */
@@ -70,13 +175,29 @@ ul {
         &:nth-child(2) {
             margin-right: 44px;
         }
+
+        &:hover {
+            animation-name: bounce;
+            animation-duration: 1.5s;
+        }
     }
 
 
 }
 
 a {
+    color: #55403B;
     text-decoration: none;
+
+    &:hover {
+        animation-duration: 0.5s;
+        color: #E06667;
+
+    }
+
+
+
+
 }
 
 a:visited {
@@ -140,26 +261,28 @@ a:visited {
 }
 
 h1 {
+    color: #F6818A;
     font-family: "the-seasons", sans-serif;
 
     font-size: 64px;
-
+    text-align: left;
 
     line-height: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
+    /* padding-left: 30px;
+    padding-right: 30px; */
 
     &:hover {
-        animation-duration: 2s;
-        color: rgb(181, 167, 143);
+        animation-duration: 0.5s;
+        color: rgb(104, 152, 184);
 
     }
 }
 
 h2 {
-    font-size: 24px;
-    margin-top: 18px;
-    margin-bottom: 18px;
+    color: #55403B;
+    font-size: 30px;
+
+
 
 }
 
@@ -167,14 +290,26 @@ h2 {
     background-color: #F6818A;
 }
 
+.bannerColour {
+    color: #F3ECDD;
+    ;
+
+}
+
 .date {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+
+    &:hover {
+        animation-name: bounce;
+        animation-duration: 1.5s;
+    }
 }
 
 h3 {
-    font-size: 30px;
-    line-height: 36px;
-    text-align: center;
+    color: #55403B;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: left;
 
 
     /* font-family: "Preahvihear", sans-serif; */
@@ -182,6 +317,18 @@ h3 {
 
     font-weight: 400;
     font-style: normal;
+
+
+}
+
+.bio {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 40vw;
+    /* margin-left: 20px;
+    margin-right: 20px; */
 }
 
 .small-bottom {
@@ -308,4 +455,27 @@ p {
     white-space: nowrap;
     animation: scroll-left 20s linear infinite;
     /* Adjust the duration and timing function as needed */
+}
+
+/* referenced jiordan's code */
+
+.bounce {
+    &:hover {
+        animation-name: bounce;
+        animation-duration: 1.5s;
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }

@@ -16,15 +16,11 @@ span {
 
 
 .starColour {
-    color: #6e5650;
+    color: #7B987D;
 }
 
 .starColourTwo {
     color: #F3ECDD;
-}
-
-.starColourThree {
-    color: #7B987D;
 }
 
 
@@ -97,6 +93,16 @@ a {
     text-decoration: none;
 
 
+}
+
+.biggerUsers {
+    font-size: 30px;
+    line-height: 50px;
+
+    &:hover {
+        animation-name: bounce;
+        animation-duration: 1.5s;
+    }
 }
 
 a:visited {
@@ -178,7 +184,7 @@ h1 {
 }
 
 h2 {
-    color: #55403B;
+    color: #F3ECDD;
     font-size: 30px;
 
 
@@ -187,6 +193,10 @@ h2 {
 
 .pinkBanner {
     background-color: #F6818A;
+}
+
+.greenBanner {
+    background-color: #7B987D;
 }
 
 .bannerColour {
@@ -215,6 +225,7 @@ h3 {
 
     font-weight: 400;
     font-style: normal;
+    text-align: center;
 }
 
 .small-bottom {
@@ -331,13 +342,13 @@ p {
 }
 
 .scroll-left {
-    background-color: #F6818A;
+    background-color: #7B987D;
     width: 100%;
     overflow: hidden;
 }
 
 .content {
-    background-color: #F6818A;
+    background-color: #7B987D;
     white-space: nowrap;
     animation: scroll-left 20s linear infinite;
     /* Adjust the duration and timing function as needed */
