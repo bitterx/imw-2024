@@ -1,0 +1,41 @@
+/* remove default styling */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: blue;
+}
+
+div {
+    box-shadow: 2px 2px 5px black;
+    transition: all 1s;
+    background-color: white;
+
+}
+
+/* make sure to add !important to override existing css */
+.no-width {
+    width: 0 !important;
+}
+
+.blue-body {
+    background-color: aqua;
+}
+
+p {
+    font-size: 200px;
+}
+
+.background {
+    position: absolute;
+}
+
+.foreground {
+    position: absolute;
+    /* z index going back and fourth */
+    z-index: 2;
+    width: 100%;
+    display: flex;
+}
