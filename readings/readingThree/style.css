@@ -1,0 +1,57 @@
+h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    color: black;
+}
+
+p {
+    font-size: 30px;
+    ;
+    margin: 40px;
+    color: black;
+
+
+}
+
+
+.chantal {
+    font-family: "chantal", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.chantalLight {
+    font-family: "chantal", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.felt {
+    font-family: "felt-tip-woman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.feltTwo {
+    font-family: "felt-tip-woman", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+body {
+    background-image: url('bookBackground.png');
+    /* Replace 'your-image-url.jpg' with the URL of your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sketchbook {
+    text-align: center;
+    color: white;
+    /* Set text color to ensure it's visible on top of the background image */
+    padding: 50px;
+    /* Add some padding to the content to separate it from the edges */
+}
