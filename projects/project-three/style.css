@@ -1,0 +1,478 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 100px;
+    /* Add spacing around the entire page */
+}
+
+
+
+/* first html */
+
+
+.upper {
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lower {
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.rectOne {
+    width: 200px;
+    height: 200px;
+    background-color: #000000;
+    margin-left: 25px;
+    margin-right: 25px;
+
+    &:hover {
+        animation-duration: 0.25s;
+        background-color: #646464;
+
+    }
+}
+
+.rectTwo {
+    width: 200px;
+    height: 200px;
+    background-color: #000000;
+    margin-left: 25px;
+    margin-right: 25px;
+
+    &:hover {
+        animation-duration: 0.25s;
+        background-color: #646464;
+
+    }
+}
+
+.rectThree {
+
+    width: 200px;
+    height: 200px;
+    background-color: #000000;
+    margin-left: 25px;
+    margin-right: 25px;
+
+    &:hover {
+        animation-duration: 0.25s;
+        background-color: #646464;
+
+    }
+}
+
+.rectFour {
+    width: 200px;
+    height: 200px;
+    background-color: #000000;
+    margin-left: 25px;
+    margin-right: 25px;
+
+    transition: background-color 0.5s;
+
+
+    &:hover {
+        animation-duration: 0.25s;
+        background-color: #646464;
+
+    }
+}
+
+.rectFive {
+    width: 200px;
+    height: 200px;
+    background-color: #000000;
+    margin-left: 25px;
+    margin-right: 25px;
+
+    transition: background-color 0.5s;
+
+
+    &:hover {
+        animation-duration: 0.25s;
+        background-color: #646464;
+
+    }
+}
+
+
+
+
+
+#square {
+    width: 200px;
+    height: 200px;
+    background-color: #000000;
+    margin-left: 25px;
+    margin-right: 25px;
+
+
+    transition: background-color 0.5s, transform 0.5s;
+
+}
+
+#square.rotate {
+    transform: rotate(45deg);
+}
+
+
+h1 {
+    text-align: center;
+    color: #555555;
+
+
+    font-size: 64px;
+
+
+    line-height: 30px;
+    padding: 30px;
+    margin-top: 20vh;
+    transition: color 0.25s, transform 0.5s;
+
+    &:hover {
+        animation-duration: 1.5s;
+        color: #d115c8;
+
+
+
+        font-family: "monotalic", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+
+    }
+}
+
+p {
+    font-size: 30px;
+
+    text-align: center;
+    padding: 30px;
+    line-height: 45px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+        animation-duration: 0.5s;
+        color: #d115c8;
+
+
+
+    }
+}
+
+/* circle page */
+
+.container {
+    position: absolute;
+    background-color: aliceblue;
+}
+
+.circle {
+    position: absolute;
+    left: 10px;
+
+    top: 500px;
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #287DFC;
+
+    transition: transform 0.3s ease;
+
+    &:hover {
+        animation-duration: 1.5s;
+        background-color: grey;
+
+
+
+
+
+    }
+}
+
+.hidden-circle {
+    position: absolute;
+    top: 60px;
+    left: 200px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #287DFC;
+
+    display: none;
+
+    &:hover {
+        animation-duration: 1.5s;
+        background-color: grey;
+
+
+
+
+
+    }
+}
+
+.hidden-circleCopy {
+    position: absolute;
+    top: 347px;
+    left: 250px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #287DFC;
+
+    display: none;
+
+    &:hover {
+        animation-duration: 1.5s;
+        background-color: grey;
+
+
+
+
+
+    }
+}
+
+
+.hidden-circle2 {
+    position: absolute;
+    top: 400px;
+    left: 500px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #287DFC;
+
+    display: none;
+
+    &:hover {
+        animation-duration: 1.5s;
+        background-color: grey;
+
+
+
+
+
+    }
+}
+
+.hidden-circle2Copy {
+    position: absolute;
+    top: 250px;
+    left: 1119px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #287DFC;
+
+    display: none;
+
+    &:hover {
+        animation-duration: 1.5s;
+        background-color: grey;
+
+
+
+
+
+    }
+}
+
+.hidden-circle2Copy2 {
+    position: absolute;
+    top: 162px;
+    left: 390px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #287DFC;
+
+    display: none;
+
+    &:hover {
+        animation-duration: 1.5s;
+        background-color: grey;
+
+
+
+
+
+    }
+}
+
+.hidden-circle3 {
+    position: absolute;
+    top: 200px;
+    left: 700px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #287DFC;
+
+    display: none;
+
+    &:hover {
+        animation-duration: 1.5s;
+        background-color: grey;
+
+
+
+
+
+    }
+}
+
+.hidden-circle3Copy {
+    position: absolute;
+    top: 556px;
+    left: 612px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #287DFC;
+
+    display: none;
+
+    &:hover {
+        animation-duration: 1.5s;
+        background-color: grey;
+
+
+
+
+
+    }
+}
+
+.hidden-circle4 {
+    position: absolute;
+    top: 400px;
+    left: 900px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #287DFC;
+
+    display: none;
+    cursor: pointer;
+
+    &:hover {
+        animation-duration: 1.5s;
+        background-color: rgb(0, 0, 0);
+
+        animation-name: bounce;
+
+
+
+    }
+}
+
+.hidden-circle4Copy {
+    position: absolute;
+    top: 76px;
+    left: 1050px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #287DFC;
+
+    display: none;
+    cursor: pointer;
+
+    &:hover {
+        animation-duration: 1.5s;
+        background-color: rgb(0, 0, 0);
+
+
+
+
+
+    }
+
+
+
+
+}
+
+h2 {
+    color: #ffffff;
+    text-align: right;
+    position: absolute;
+    top: 410px;
+    left: 85vw;
+}
+
+
+
+
+
+
+/* bounce animation */
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* fonts */
+.monoReg {
+    font-family: "monotalic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.monoBold {
+    font-family: "monotalic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.driod {
+    font-family: "droid-sans-mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
