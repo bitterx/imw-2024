@@ -15,19 +15,27 @@
 
         /* Start of text sizes */
         h1 {
+            color: #8c4641;
+
             font-size: 4em;
         }
 
         h2 {
+            color: #8c4641;
+
             font-size: 3em;
         }
 
         p {
+            color: #8c4641;
+
             font-size: 2em;
             line-height: 1.5em;
         }
 
         figcaption {
+            color: #8c4641;
+
             font-size: 1.25em;
         }
 
