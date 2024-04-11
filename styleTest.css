@@ -309,9 +309,9 @@ a {
 
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
     .main-image {
-        height: 30%;
-        width: 30%;
+
+        width: 80%;
     }
 }
