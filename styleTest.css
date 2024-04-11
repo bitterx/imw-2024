@@ -311,6 +311,6 @@ a {
 
 @media (max-width: 375px) {
     .main-image {
-        width: 60%;
+        width: 30%;
     }
 }
