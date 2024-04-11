@@ -310,7 +310,7 @@ a {
 }
 
 @media (max-width: 600px) {
-    .main-image {
+    .rectangle {
 
         width: 80%;
         height: 80%;
