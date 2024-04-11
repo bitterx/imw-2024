@@ -312,7 +312,7 @@ a {
 @media (max-width: 600px) {
     .rectangle {
 
-        width: 50%;
+        width: 80%;
         height: auto;
     }
 }
