@@ -308,3 +308,9 @@ a {
     /* Add space between links */
 
 }
+
+@media (max-width: 991px) {
+    .main-image {
+        width: 60%;
+    }
+}
