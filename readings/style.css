@@ -1,9 +1,163 @@
+/* Move all CSS to a stylesheet */
 * {
+    /* Remove default browser spacing */
     margin: 0;
-
+    padding: 0;
 }
 
+header {
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+
+    padding: 30px 36px;
+}
+
+
+body {
+    margin: 100px;
+    /* Add spacing around the entire page */
+    font-size: 12px;
+    /* Setting baseline font size */
+
+    background-color: #F5EBCF;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    padding-right: 11em;
+}
+
+/* Start of text sizes */
 h1 {
-    font-size: 30pt;
-    text-align: center;
+    font-size: 4em;
+    color: #8c4641;
+}
+
+h2 {
+    font-size: 3em;
+    color: #8c4641;
+}
+
+p {
+    font-size: 2em;
+    line-height: 1.5em;
+    color: #855350;
+}
+
+figcaption {
+    font-size: 1.25em;
+}
+
+/* End of text sizes */
+
+/* Start of spacing and layout */
+h2,
+p,
+figure,
+figcaption {
+    margin-bottom: 40px;
+}
+
+img {
+    margin-bottom: 10px;
+}
+
+.process-template {
+    width: 40%;
+    /* Set the width of the template to 60% of the viewport. */
+    margin: auto;
+    /* Center align the template by adding auto margins to the left and right */
+}
+
+.title {
+    margin-bottom: 100px;
+    /* Add spacing to the bottom of the title div */
+}
+
+.section {
+    margin-bottom: 100px;
+}
+
+/* End of spacing and layout */
+
+/* Adding media queries for page to adapts to tablet and mobile devices */
+@media (max-width: 991px) {
+    .process-template {
+        width: 60%;
+    }
+}
+
+@media (max-width:767px) {
+    body {
+        margin: 40px;
+        font-size: 10px;
+    }
+
+    .process-template {
+        width: 100%;
+    }
+}
+
+.filsonReg {
+    font-family: "filson-soft", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.filsonBlack {
+    font-family: "filson-soft", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* animation */
+
+/* used https://css-tricks.com/snippets/css/typewriter-effect/ */
+/* Keyframe animation for typewriter effect */
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+}
+
+.typewriter h1 {
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #8c4641;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation:
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: #8c4641;
+    }
 }
