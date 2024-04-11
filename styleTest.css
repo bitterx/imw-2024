@@ -335,9 +335,9 @@ a {
 }
 
 @media (max-width: 600px) {
-    .rectangle {
+    .bar .main-image {
 
-        width: 80%;
-        height: auto;
+        scale: (0.5);
+
     }
 }
