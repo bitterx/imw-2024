@@ -311,6 +311,7 @@ a {
 
 @media (max-width: 375px) {
     .main-image {
+        height: 30%;
         width: 30%;
     }
 }
